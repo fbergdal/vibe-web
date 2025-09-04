@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center bg-black text-white">
       <Image 
-        src="/next.svg" 
+        src="/vibe_logo.png" 
         alt="Vibe Logo" 
         width={400} 
         height={400} 
