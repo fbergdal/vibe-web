@@ -15,3 +15,12 @@ export default function Home() {
     </main>
   )
 }
+import Link from 'next/link'
+
+// … inne i JSX:
+<Link
+  href="/login?next=/admin/venue"
+  className="mt-6 inline-block px-4 py-2 bg-white text-black rounded"
+>
+  Venue login
+</Link>
